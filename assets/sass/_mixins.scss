@@ -1,0 +1,17 @@
+$heading-color: #1f6f78;
+$body-color: #2f2f2f;
+
+@mixin heading-style($size) {
+  font-family: "Segoe UI", sans-serif;
+  font-size: $size;
+  font-weight: 600;
+  color: $heading-color;
+  margin-bottom: 10px;
+}
+
+@mixin body-text {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: $body-color;
+}

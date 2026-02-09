@@ -1,0 +1,19 @@
+@import "mixins";
+
+body {
+  background-color: #f7f9fb;
+  padding: 40px;
+}
+
+h1 {
+  @include heading-style(32px);
+}
+
+h2 {
+  @include heading-style(22px);
+}
+
+p {
+  @include body-text;
+  max-width: 600px;
+}
